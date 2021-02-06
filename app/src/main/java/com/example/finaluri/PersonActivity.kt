@@ -10,7 +10,7 @@ import com.example.finaluri.Fragment.MealFragment
 import kotlinx.android.synthetic.main.activity_person.*
 
 class PersonActivity:AppCompatActivity() {
-    private lateinit var mAuth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_person)
